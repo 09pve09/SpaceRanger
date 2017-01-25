@@ -1,0 +1,12 @@
+<div ng-controller="gameController">
+  <!-- <h1>GAMEOVER</h1> -->
+  <img src='images/gameover.png' style="position:absolute; left:45px; top:150px;">
+  <h3 style="position:absolute; left:240px; top:270px;"> Your score is {{ score }} <h3>
+  <form ng-submit="play()" name="myForm">
+    <input type="submit" name="play" id="play" style="position:absolute; left:180px; top:330px; width75px; height:30px;" value="PLAY AGAIN">
+  </form>
+  <form ng-submit="highscores()" name="myForm">
+    <input type="submit" name="highscores" id="play" style="position:absolute; left:300px; top:330px; width75px; height:30px;" value="HIGHSCORES">
+  </form>
+
+</div>

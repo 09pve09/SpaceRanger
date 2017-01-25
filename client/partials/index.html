@@ -1,0 +1,9 @@
+<div ng-controller="gameController">
+  <!-- <h1>STARTING PAGE</h1> -->
+  <img src='images/logo.png' style="position:absolute; left:0px; top:130px;">
+  <form ng-submit="play()" name="myForm">
+    <input type="text" name="name" id="name" placeholder="Enter Your Name" ng-model = 'newUser.name' style="position:absolute; left:160px; top:330px; width:200px;" ng-minlength="2" required>
+      <span ng-show="myForm.name.$touched && myForm.name.$invalid" style="position:absolute; left:180px; top:300px; width:200px;">Minimum name length is 2</span>
+    <input type="submit" name="play" id="play" style="position:absolute; left:370px; top:330px; width:50px; height:25px;" value="PLAY">
+  </form>
+</div>

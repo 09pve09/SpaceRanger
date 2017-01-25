@@ -1,0 +1,61 @@
+  canvas {
+    border-style: solid;
+  }
+  #name {
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+   border: 1px solid #2DB005;
+   -webkit-border-radius: 11px;
+   border-radius: 11px;
+   font: normal 16px/normal Tahoma, Geneva, sans-serif;
+   color: #2DB005;
+   -o-text-overflow: clip;
+   text-overflow: clip;
+   background: #313131;
+   -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+   box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+   text-shadow: 1px 1px 0 #313131 ;
+   -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  #play {
+    border: 1px solid #2DB005;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    font: normal 16px/normal Tahoma, Geneva, sans-serif;
+    color: #2DB005;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #313131;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 #313131 ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+  }
+  span, h3, h4 {
+    text-shadow: 1px 1px 0 #313131 ;
+    color: #2DB005;
+    font: normal 16px/normal Tahoma, Geneva, sans-serif;
+
+  }
+
+  #table {
+    position:absolute; left:60px;
+    top:150px;
+    width: 500px;
+    height: 295px;
+    overflow: scroll;
+  }
+
+  table td {
+    width: 250px;
+    height: 10px;
+    text-align: center;
+  }

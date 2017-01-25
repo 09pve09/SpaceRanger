@@ -1,0 +1,21 @@
+<div ng-controller="gameController">
+  <!-- <h1>Highscores</h1> -->
+  <img src='images/highscores.png' style="position:absolute; left:90px; top:60px;">
+  <h3 style="position:absolute; left:280px; top:140px;"> Top 10 <h3>
+  <form ng-submit="play()" name="myForm">
+    <input type="submit" name="play" id="play" style="position:absolute; left:250px; top:450px; width:100px; height:30px;" value="PLAY AGAIN">
+  </form>
+  <!-- <h3>{{ topUsers }}</h3> -->
+  <div id="table">
+    <table>
+      <tr>
+        <td><h3>Name</h3></td>
+        <td><h3>Score</h3></td>
+      </tr>
+      <tr ng-repeat="user in topUsers">
+        <td><h4>{{user.name}}</h4></td>
+        <td><h4>{{user.score}}</h4></td>
+      </tr>
+    </table>
+  </div>
+</div>
