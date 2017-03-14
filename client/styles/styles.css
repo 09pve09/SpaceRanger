@@ -46,6 +46,54 @@
 
   }
 
+  body {
+    background-color: black;
+  }
+
+  #description_wrapper{
+    float:right;
+    width: auto;
+    height: auto;
+    background-color: red;
+  }
+
+  .controls_wrapper{
+    width: 48%;
+    min-height: 200px;
+  }
+  #left_arrows{
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  #right_arrows{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-top: 10.4%;
+  }
+
+  #space_bar{
+    margin-left: 30%;
+  }
+
+  .button{
+    width: 20%;
+    height: 20%;
+    /*margin-bottom: -1%;
+    margin-left: -0.1%;
+    margin-right: -0.1%;*/
+  }
+  .button_up{
+    width: 25%;
+    height: 25%;
+  }
+
+  #up_button_div{
+    padding-left: 22%;
+  }
+
   #table {
     position:absolute; left:60px;
     top:150px;
